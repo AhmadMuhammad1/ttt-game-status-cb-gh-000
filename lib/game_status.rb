@@ -55,6 +55,5 @@ def winner(board)
     return "X"
   elsif won?(board) == ["O", "O", "O"]
     return "O"
-    end
   end
 end
