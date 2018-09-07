@@ -53,9 +53,9 @@ end
 def winner(board)
   if won?(board)
     if win_combo == ["X", "X", "X"]
-      return "X won"
+      return "X"
     elsif win_combo == ["O", "O", "O"]
-      return "O won"
+      return "O"
     end
   end
 end
